@@ -1,0 +1,335 @@
+:root{
+
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bdblak{
+    background-color: black;
+    color: #ffff;
+}
+
+body{
+ /* font-family: 'Lato', sans-serif; */
+ font-family: 'Playfair Display', serif;
+ /* font-family: 'Send Flowers', cursive; */
+ color: #000000;
+ line-height: 1.5;
+}
+img{
+    width: 100%;   
+    /* height: auto; */
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+p{
+    margin: 10px 0;
+}
+
+
+/* Utitlites */
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    overflow: 0 auto;
+    padding: 0 40px;
+}
+.logo{
+    display: flex;
+}
+
+.logo .font{
+    font-family: 'Sacramento', cursive;
+    color:     #333;
+    font-weight: 200;
+    font-size: 30px;    
+}
+.font2{
+     font-weight: 700;
+    font-size: 30px;
+}
+
+.grid{
+    display: grid;
+    gap: 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gridg{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar{
+   background-color: #F8F8F8;
+   height: 70px;
+   border-bottom: #E0CAD5 1px solid;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    padding: 8px;
+    margin: 0 5px;
+}
+
+.navbar  .bottom:hover{
+   border-bottom: #E0CACA 1px solid;
+
+}
+
+.navbar li{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 5px;
+     margin-left: 50px;
+     padding: 5px 5px;
+     border-radius: 5px;
+     border: 1px #333 solid;
+     cursor: pointer;
+    
+}
+
+
+/* home */
+.arch{
+    border-left:  1px solid #333 ;
+}
+
+.text-center{
+    max-width: 1000px;
+    height: 350px;
+    margin-right: -300px;
+    border :  1px solid #333 ;
+    border-right :  0.5px dashed  #333 ;
+    border-bottom :  0.5px dashed  #333 ;
+    z-index: 100;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.h1home{
+    color: #e0d7d7;
+    font-family: 'Sacramento', cursive;
+    font-weight: 200;
+    font-size: 50px;    
+   
+}
+
+.home p{
+    font-size: 15px;
+    overflow: hidden;
+}
+
+/* Latest */
+.latest{
+    margin-top: 60px;
+}
+
+.title h1{
+     font-size: 50px;
+    font-weight: 50;
+    text-decoration: solid #333 9px;
+}
+
+ 
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title img{
+   max-width: 50px;    
+   padding-right: 5px;
+}
+ 
+
+ 
+
+.latest .grid{
+    margin-top: 40px;
+    
+}
+
+ .latimg{
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    justify-self: center;
+ }
+ 
+
+
+
+ /* Reviews */
+.reviews .container{
+    margin-top: 80px;
+
+}
+
+
+ .cardbox{
+    /* width: 80%; */
+    background-color: #F8F8F8;
+    display: flex;
+    /* border: #3333331f 1px solid; */
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding: 10px 10px 0 10px;
+}
+
+.cardbox img{
+    /* vertical-align: middle; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+ .cardbox p{
+    margin: 0 ;
+    
+    
+ }
+ .cardbox h1{
+    padding-top: 10px;
+    font-size: 15px;
+ }
+ 
+/* Subscription */
+.subscription{
+    background-color: #C7C7BF;
+    margin-top: 150px;
+    height: 5%;
+}
+
+.subscription .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.subscription div:first-child{
+     padding: 10px ;
+     grid-column-start: 1;
+     grid-column-end: 3;
+}
+.subscription h1{
+    color: white;
+}
+
+.subscription form{
+    display: flex;
+    /* flex-direction: start; */
+    align-items: center;
+    padding: 11px 0 10px 0;
+}
+
+.subscription  input {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-start-start-radius: 5px;
+    border-end-start-radius: 5px;
+}
+
+.subscription form .bdblak{
+    height: 43.1px;
+    border: none;
+    border-end-end-radius: 5px;
+    border-start-end-radius: 5px;
+}
+
+.container .handsphoto{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding: 10px 10px 0 10px;
+}
+
+.subscription .container img{
+    max-width: 200%;
+     height: 200%;
+    display: flex;
+    object-fit: cover;
+    margin-top: -100px;
+}
+
+
+/* Footer section */
+footer{
+    margin-top: 100px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: #A6AAB3;
+    color: #ffff;
+    text-align: center;
+}
+
+.footer .container .logo {
+    border-bottom: #fff solid  1px;
+}
+
+.footer .container .logo .font{
+  font-size: 50px;
+  color: #fff;
+  padding-right: 10px;
+}
+
+.footer .container .logo .font2{
+  font-size: 50px;
+  color: #fff;
+  padding-right: 10px;
+  
+}
+
+.container .social-media{
+    padding: 10px 0 10px 0;
+    border-bottom: #fff solid  1px;
+}
+
+.container .social-media h1{
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.container .social-media i {
+    font-size: 20px;
+    color: #ffff;
+    margin-right: 10px;
+}
