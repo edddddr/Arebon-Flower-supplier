@@ -84,6 +84,8 @@ p{
    background-color: #F8F8F8;
    height: 70px;
    border-bottom: #E0CAD5 1px solid;
+   
+
 }
 
 .navbar ul{
@@ -151,7 +153,9 @@ p{
 .latest{
     margin-top: 60px;
 }
-
+.latest .container{
+    padding: 50px;
+}
 .title h1{
      font-size: 50px;
     font-weight: 50;
@@ -308,7 +312,7 @@ footer{
     background-color: #A6AAB3;
     color: #ffff;
     text-align: center;
-    margin-bottom: 0;
+   
 }
 
 .footer .container .logo {
@@ -354,8 +358,12 @@ footer{
     text-align: center;
     font-size: 60px;
     padding-bottom: 10px;
-   
   }
+
+  .aboutsec .container{
+    padding: 70px;
+  }
+
   .aboutsec .container .cardbox1{
          padding: 50px;
          font-size: 20px;
@@ -366,3 +374,70 @@ footer{
     font-size: 30px;
   }
  
+
+
+  /* Shop section */
+.shopheader {
+     max-width: 100%;
+     height: 350px;   
+     background: url('../img/pexel.jpg') no-repeat center center/cover;
+     
+}
+
+.shopheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopheader h1{
+    color: #fff;
+    align-items: center;
+    font-size: 85px;
+    padding: 10px;
+    
+}
+.shopheader .order{
+    border: #ffff 1px solid;
+    padding: 20px 100px;
+}
+.shopheader p{
+    text-align: center;
+    color: #ffff;
+    font-size: 40px;
+    font-weight:lighter;
+    
+
+}
+
+
+
+.standflowers .container .grid{
+        grid-column-gap: 70px;
+       text-align: center;
+}
+.standflowers .container img{
+    max-width: 60%;    
+}
+
+.standflowers h1{
+    margin-bottom: 50px;
+    
+}
+.standflowers p{
+    text-align: center;
+}
+.standflowers .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.standflowers .cont{
+    padding: 100px;
+}
+
+.align{
+    margin-bottom: 100px;
+}
